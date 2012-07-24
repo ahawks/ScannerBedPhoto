@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA3852015BE4DF9006D6DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA3851F15BE4DF9006D6DF2 /* UIKit.framework */; };
+		6FA3852215BE4DF9006D6DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA3852115BE4DF9006D6DF2 /* Foundation.framework */; };
+		6FA3852415BE4DF9006D6DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA3852315BE4DF9006D6DF2 /* CoreGraphics.framework */; };
+		6FA3852A15BE4DF9006D6DF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FA3852815BE4DF9006D6DF2 /* InfoPlist.strings */; };
+		6FA3852C15BE4DF9006D6DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3852B15BE4DF9006D6DF2 /* main.m */; };
+		6FA3853015BE4DF9006D6DF2 /* AJHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3852F15BE4DF9006D6DF2 /* AJHAppDelegate.m */; };
+		6FA3853315BE4DF9006D6DF2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA3853115BE4DF9006D6DF2 /* MainStoryboard.storyboard */; };
+		6FA3853615BE4DF9006D6DF2 /* AJHMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3853515BE4DF9006D6DF2 /* AJHMasterViewController.m */; };
+		6FA3853915BE4DF9006D6DF2 /* AJHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3853815BE4DF9006D6DF2 /* AJHDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FA3851B15BE4DF9006D6DF2 /* ScannerPhotography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerPhotography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA3851F15BE4DF9006D6DF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FA3852115BE4DF9006D6DF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FA3852315BE4DF9006D6DF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FA3852715BE4DF9006D6DF2 /* ScannerPhotography-Info.plist */ = {isa = PBXFileReference; path = "ScannerPhotography-Info.plist"; sourceTree = "<group>"; };
+		6FA3852915BE4DF9006D6DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6FA3852B15BE4DF9006D6DF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FA3852D15BE4DF9006D6DF2 /* ScannerPhotography-Prefix.pch */ = {isa = PBXFileReference; path = "ScannerPhotography-Prefix.pch"; sourceTree = "<group>"; };
+		6FA3852E15BE4DF9006D6DF2 /* AJHAppDelegate.h */ = {isa = PBXFileReference; path = AJHAppDelegate.h; sourceTree = "<group>"; };
+		6FA3852F15BE4DF9006D6DF2 /* AJHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJHAppDelegate.m; sourceTree = "<group>"; };
+		6FA3853215BE4DF9006D6DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6FA3853415BE4DF9006D6DF2 /* AJHMasterViewController.h */ = {isa = PBXFileReference; path = AJHMasterViewController.h; sourceTree = "<group>"; };
+		6FA3853515BE4DF9006D6DF2 /* AJHMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJHMasterViewController.m; sourceTree = "<group>"; };
+		6FA3853715BE4DF9006D6DF2 /* AJHDetailViewController.h */ = {isa = PBXFileReference; path = AJHDetailViewController.h; sourceTree = "<group>"; };
+		6FA3853815BE4DF9006D6DF2 /* AJHDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJHDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA3851815BE4DF9006D6DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA3852015BE4DF9006D6DF2 /* UIKit.framework in Frameworks */,
+				6FA3852215BE4DF9006D6DF2 /* Foundation.framework in Frameworks */,
+				6FA3852415BE4DF9006D6DF2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA3851015BE4DF7006D6DF2 = {
+			isa = PBXGroup;
+			children = (
+				6FA3852515BE4DF9006D6DF2 /* ScannerPhotography */,
+				6FA3851E15BE4DF9006D6DF2 /* Frameworks */,
+				6FA3851C15BE4DF9006D6DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA3851C15BE4DF9006D6DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA3851B15BE4DF9006D6DF2 /* ScannerPhotography.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA3851E15BE4DF9006D6DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FA3851F15BE4DF9006D6DF2 /* UIKit.framework */,
+				6FA3852115BE4DF9006D6DF2 /* Foundation.framework */,
+				6FA3852315BE4DF9006D6DF2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FA3852515BE4DF9006D6DF2 /* ScannerPhotography */ = {
+			isa = PBXGroup;
+			children = (
+				6FA3852E15BE4DF9006D6DF2 /* AJHAppDelegate.h */,
+				6FA3852F15BE4DF9006D6DF2 /* AJHAppDelegate.m */,
+				6FA3853115BE4DF9006D6DF2 /* MainStoryboard.storyboard */,
+				6FA3853415BE4DF9006D6DF2 /* AJHMasterViewController.h */,
+				6FA3853515BE4DF9006D6DF2 /* AJHMasterViewController.m */,
+				6FA3853715BE4DF9006D6DF2 /* AJHDetailViewController.h */,
+				6FA3853815BE4DF9006D6DF2 /* AJHDetailViewController.m */,
+				6FA3852615BE4DF9006D6DF2 /* Supporting Files */,
+			);
+			path = ScannerPhotography;
+			sourceTree = "<group>";
+		};
+		6FA3852615BE4DF9006D6DF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FA3852715BE4DF9006D6DF2 /* ScannerPhotography-Info.plist */,
+				6FA3852815BE4DF9006D6DF2 /* InfoPlist.strings */,
+				6FA3852B15BE4DF9006D6DF2 /* main.m */,
+				6FA3852D15BE4DF9006D6DF2 /* ScannerPhotography-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA3851A15BE4DF9006D6DF2 /* ScannerPhotography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA3853C15BE4DF9006D6DF2 /* Build configuration list for PBXNativeTarget "ScannerPhotography" */;
+			buildPhases = (
+				6FA3851715BE4DF9006D6DF2 /* Sources */,
+				6FA3851815BE4DF9006D6DF2 /* Frameworks */,
+				6FA3851915BE4DF9006D6DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScannerPhotography;
+			productName = ScannerPhotography;
+			productReference = 6FA3851B15BE4DF9006D6DF2 /* ScannerPhotography.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA3851215BE4DF7006D6DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AJH;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6FA3851515BE4DF7006D6DF2 /* Build configuration list for PBXProject "ScannerPhotography" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FA3851015BE4DF7006D6DF2;
+			productRefGroup = 6FA3851C15BE4DF9006D6DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA3851A15BE4DF9006D6DF2 /* ScannerPhotography */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA3851915BE4DF9006D6DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA3852A15BE4DF9006D6DF2 /* InfoPlist.strings in Resources */,
+				6FA3853315BE4DF9006D6DF2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA3851715BE4DF9006D6DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA3852C15BE4DF9006D6DF2 /* main.m in Sources */,
+				6FA3853015BE4DF9006D6DF2 /* AJHAppDelegate.m in Sources */,
+				6FA3853615BE4DF9006D6DF2 /* AJHMasterViewController.m in Sources */,
+				6FA3853915BE4DF9006D6DF2 /* AJHDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FA3852815BE4DF9006D6DF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA3852915BE4DF9006D6DF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6FA3853115BE4DF9006D6DF2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA3853215BE4DF9006D6DF2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FA3853A15BE4DF9006D6DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6FA3853B15BE4DF9006D6DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA3853D15BE4DF9006D6DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScannerPhotography/ScannerPhotography-Prefix.pch";
+				INFOPLIST_FILE = "ScannerPhotography/ScannerPhotography-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6FA3853E15BE4DF9006D6DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScannerPhotography/ScannerPhotography-Prefix.pch";
+				INFOPLIST_FILE = "ScannerPhotography/ScannerPhotography-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA3851515BE4DF7006D6DF2 /* Build configuration list for PBXProject "ScannerPhotography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA3853A15BE4DF9006D6DF2 /* Debug */,
+				6FA3853B15BE4DF9006D6DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA3853C15BE4DF9006D6DF2 /* Build configuration list for PBXNativeTarget "ScannerPhotography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA3853D15BE4DF9006D6DF2 /* Debug */,
+				6FA3853E15BE4DF9006D6DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA3851215BE4DF7006D6DF2 /* Project object */;
+}
